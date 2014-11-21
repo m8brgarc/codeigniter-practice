@@ -9,19 +9,21 @@ class Migration_Add_article extends CI_Migration {
         $this->dbforge->add_field(array(
             'id' => array(
                 'type' => 'INT',
-                'auto-increment' => TRUE
+                'auto_increment' => TRUE,
+                'unsigned' => TRUE,
+                'null' => FALSE
             ),
             'title' => array(
                 'type' => 'VARCHAR',
-                'length' => 50
+                'constraint' => 50
             ),
             'author' => array(
                 'type' => 'VARCHAR',
-                'length' => 50
+                'constraint' => 50
             ),
             'text' => array(
                 'type' => 'TEXT',
-                'length' => 32000
+                'constraint' => 32000
             ),
             'date_posted' => array(
                 'type' => 'DATETIME'

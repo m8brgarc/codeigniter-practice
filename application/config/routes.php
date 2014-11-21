@@ -96,6 +96,12 @@ $route['calendar/(:num)/(:num)'] = 'page/calendar/$1/$2';
 $route['contact'] = 'page/contact';
 
 $route['articles?'] = 'article/index';
+$route['article/new'] = 'article/new_article';
+$route['article/edit/(:num)'] = 'article/edit_article/$1';
+$route['article/show/(:num)'] = 'article/show_article/$1';
+$route['article/delete/(:num)'] = 'article/delete_article/$1';
+
+$route['admin/migration/(:num)'] = 'admin/migration/$1';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
