@@ -1,0 +1,23 @@
+.calendar {
+  width: 80%;
+  margin: 0 auto;
+}
+.calendar td {
+  height: 1in;
+  text-align: right;
+  vertical-align: top;
+  border: 1px solid #000;
+}
+.calendar td span {
+  margin: 10px;
+}
+.calendar .days,
+.calendar th {
+  text-align: center;
+  vertical-align: middle;
+  height: .8in;
+}
+.calendar th {
+  font-size: 1.4em;
+  width: .6in;
+}
