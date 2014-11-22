@@ -101,6 +101,12 @@ $route['article/edit/(:num)'] = 'article/edit_article/$1';
 $route['article/show/(:num)'] = 'article/show_article/$1';
 $route['article/delete/(:num)'] = 'article/delete_article/$1';
 
+$route['blogs?'] = 'blog/index';
+$route['blog/new'] = 'blog/new_blog';
+$route['blog/edit/(:num)'] = 'blog/edit_blog/$1';
+$route['blog/show/(:num)'] = 'blog/show_blog/$1';
+$route['blog/delete/(:num)'] = 'blog/delete_blog/$1';
+
 $route['admin/migration/(:num)'] = 'admin/migration/$1';
 
 /* End of file routes.php */

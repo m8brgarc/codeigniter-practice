@@ -40,7 +40,7 @@
                             <li <?= is_curr('about'); ?>><?= anchor('about', 'About'); ?></li>
 							<li <?= is_curr('products'); ?>><?= anchor('products', 'Products'); ?></li>
 							<li <?= is_curr('articles'); ?>><?= anchor('articles', 'Articles'); ?></li>
-							<li <?= is_curr('blog'); ?>><?= anchor('blog', 'Blog'); ?></li>
+							<li <?= is_curr('blogs'); ?>><?= anchor('blogs', 'Blog'); ?></li>
 							<li <?= is_curr('calendar'); ?>><?= anchor('calendar', 'Calendar'); ?></li>
 							<li <?= is_curr('preferences'); ?>><?= anchor('preferences', 'Preferences'); ?></li>
 							<li <?= is_curr('contact'); ?>><?= anchor('contact', 'Contact'); ?></li>
